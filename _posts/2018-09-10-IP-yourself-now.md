@@ -1,9 +1,10 @@
 ---
-title: What is a friend?
-date: 2016-07-20
-description: Exploring the mechanics of friendship
+title: IP yourself now!
+date: 2018-09-10
+description: IP yourself
 categories:
-  - friends
+  - IP
+  - personal branding
 image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
 author_staff_member: anna
 ---
@@ -18,3 +19,5 @@ Although there are many forms of friendship, some of which may vary from place t
 While there is no practical limit on what types of people can form a friendship, friends tend to share common backgrounds, occupations, or interests and have similar demographics.
 
 ![Raspberries](https://source.unsplash.com/random/1500x1001)
+
+
