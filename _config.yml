@@ -5,13 +5,13 @@
 url: http://ipyou.me
 title: IP yourself
 email: chenluaihr@gmail.com
-author: Your Name
+author: ActionThinker & GJ
 description: > # "Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
   head meta (for Google search results) and in your feed.xml site 
   description.
 copyright: 'Copyright &copy; 2018 IP yourself. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+credits: '「人人都可以是IP」由ActionThinker和GJ联合创办，我们致力于打造最有爱的最有爱学习型社群。 <a href="http://ipyou.me/">IPyourself</a>.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
