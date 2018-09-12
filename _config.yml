@@ -1,34 +1,106 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+# ----
+# Site
 
-url: http://ipyou.me
 title: IP yourself
-email: chenluaihr@gmail.com
-author: ActionThinker & GJ
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: 'Copyright &copy; 2018 IP yourself. All Rights Reserved.'
-credits: '「人人都可以是IP」由ActionThinker和GJ联合创办，我们致力于打造最有爱的最有爱学习型社群。 <a href="http://ipyou.me/">IPyourself</a>.'
+url: "https://ipyou.me"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+disqus_shortname:
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# Values for the jekyll-seo-tag gem (https://github.com/ActionThinker)
+logo: /siteicon.png
+description: IP yourself.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: IP yourself
+  links:
+    - https://github.com/ActionThinker
 
-# Build settings
-markdown: kramdown
+# -----
+# Build
+
+timezone: Etc/UTC
+
 permalink: pretty
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
 
-social:
-  - title: twitter
-    url: https://twitter.com/ipyourself
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+collections:
+  staff_members:
+    _hide_content: true
+
+paginate: 10
+paginate_path: "/blog/:num/"
+
+jekyll-archives:
+  enabled: ['categories']
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        image:
+          width: 2000
+          height: 1322
+          resize_style: cover
+        content:
+          width: 1500
+          height: 2000
+  -
+    scope:
+      path: "contact-success.html"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+      bottom_image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Instagram
+  - LinkedIn
+  - Tumblr
+  - Twitter
+  - YouTube
+  - Email
+  - RSS
+
+_comments:
+  description: Text shown when sharing on social media
+  blurb: Short bio or description of this person

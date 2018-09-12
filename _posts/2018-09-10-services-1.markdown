@@ -1,9 +1,0 @@
----
-layout: default
-img: phones.png
-category: Services
-title: IP自媒体
-description: |
----
-我们相信人人都可以是IP
-

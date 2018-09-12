@@ -1,9 +1,0 @@
----
-layout: default
-img: ipad.png
-category: Services
-title: IP商学院
-description: |
----
-我们为大家提供系统且丰富的个人IP打造课程。
-
